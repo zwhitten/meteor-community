@@ -1,0 +1,12 @@
+<head>
+  <title>My Little Community</title>
+</head>
+
+<template name="header">
+  <nav class="navbar navbar-default">
+    <ul>
+      <li class="{{isActiveRoute 'home'}}"><a href="{{pathFor 'home'}}">My Little Community</a></li>
+      <li class="{{isActiveRoute 'about'}}"><a href="{{pathFor 'about'}}">About</a></li>
+    </ul>
+  </nav>
+</template>
